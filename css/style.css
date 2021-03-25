@@ -1,0 +1,50 @@
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  border: 0;  
+}
+
+td{
+    font-size: 13px;
+}
+
+#myTable{
+  width:80%;
+  margin:0 auto;
+  border:0;
+  box-shadow: 0 5px 30px darkgrey;
+  border-spacing: 0;
+}
+
+#myTable thead th{
+  font-weight: bold;
+  background-color: black;
+  color:darkgrey;
+  
+  padding:5px 10px;
+}
+
+#myTable tr td{
+  padding:5px 10px;
+  text-align: center;
+  
+  cursor: pointer; 
+}
+
+#myTable tr td:last-child{
+  text-align: right;
+}
+
+#myTable tr:nth-child(odd){
+  background-color: #E6E6FA;
+}
+
+#myTable tr:hover td{
+  background-color: #4682B4;
+}
+
+#myTable tr.selecionado td{
+  background-color: #A9A9A9;
+}
+
